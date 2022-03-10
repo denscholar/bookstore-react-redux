@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import './Form.css';
 
 const Form = () => (
-  <Container style={{ padding: 0 }}>
+  <Container style={{ padding: '18px' }}>
     <form className="form-inline">
       <input type="text" placeholder="Book Title" name="bookTitle" />
       <select name="categories" className="category">

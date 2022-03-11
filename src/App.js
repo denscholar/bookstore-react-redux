@@ -3,6 +3,7 @@ import './App.css';
 import AppBar from './components/AppBar/AppBar';
 import Books from './components/Books/Books';
 import Categories from './components/Categories/Categories';
+import Form from './components/Form/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Books />} />
         <Route path="/categories" element={<Categories />} />
       </Routes>
+      <Form />
     </div>
   );
 }

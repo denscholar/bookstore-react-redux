@@ -1,0 +1,6 @@
+.Line {
+  width: 60rem;
+  height: 0.125rem;
+  margin: 2.5rem 2.5rem 1rem auto;
+  border: solid 1px rgb(197, 195, 195);
+}

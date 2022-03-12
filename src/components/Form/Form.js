@@ -17,6 +17,9 @@ const Form = () => {
   };
   return (
     <Container style={{ padding: '18px' }}>
+      <h3 className="Title">
+        ADD NEW BOOK
+      </h3>
       <form className="form-inline" onSubmit={handleSubmit}>
         <input type="text" placeholder="Book Title" name="title" />
         <select name="category" className="category">

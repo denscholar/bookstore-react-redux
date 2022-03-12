@@ -22,12 +22,14 @@ const Book = (props) => {
       <li>
         <Row className="row-item">
           <Col sm>
-            <p>{category}</p>
-            <h3>{title}</h3>
-            <p>James Doe</p>
-            <button type="button">Comment</button>
-            <button type="button" onClick={() => handleRemove(id)}>Remove</button>
-            <button type="button">Edit</button>
+            <p className="categories">{category}</p>
+            <h3 className="name-title">{title}</h3>
+            <p className="name">James Doe</p>
+            <div className="button-container">
+              <button type="button">Comment</button>
+              <button type="button" onClick={() => handleRemove(id)}>Remove</button>
+              <button type="button">Edit</button>
+            </div>
           </Col>
           <Col sm className="status">
             <CircularProgressbar className="oval-2" value={percentage} />
